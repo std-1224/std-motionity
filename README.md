@@ -26,7 +26,64 @@ Made by [Alyssa X](https://twitter.com/alyssaxuu)
 🧩 Pixabay integration<br>
 ...and much more - all for free & no sign in needed!
 
-#
+## Local Development
+
+To run Motionity locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/std-1224/std-motionity.git
+   cd motionity
+   ```
+
+2. Start a local development server using one of these methods:
+
+   Using Python:
+   ```bash
+   python -m http.server 3000
+   ```
+
+   Using Node.js:
+   ```bash
+   npx serve src
+   ```
+
+3. Open your browser and navigate to:
+   - `http://localhost:3000` (for Python server)
+   - `http://localhost:5000` (for Node.js serve)
+
+## Deployment
+
+### Deploying to Vercel
+
+1. Create a Vercel account at [vercel.com](https://vercel.com)
+
+2. Install Vercel CLI (optional):
+   ```bash
+   npm install -g vercel
+   ```
+
+3. Deploy using one of these methods:
+
+   **Using Vercel Dashboard:**
+   1. Go to [vercel.com/new](https://vercel.com/new)
+   2. Import your repository from GitHub
+   3. Vercel will automatically detect the static site
+   4. Click "Deploy"
+
+   **Using Vercel CLI:**
+   ```bash
+   vercel login
+   vercel
+   ```
+
+The project will be automatically deployed to Vercel's global CDN with HTTPS enabled.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Support
 
 Feel free to reach out to me through email at hi@alyssax.com or [on Twitter](https://twitter.com/alyssaxuu) if you have any questions or feedback! Hope you find this useful 💜
  
